@@ -1,4 +1,6 @@
 # Spam_Mail_Detection
+![image](https://user-images.githubusercontent.com/83460431/141176514-4649f838-d896-44df-bed6-c4eb76d1543e.png)
+
 
 Through this Project I was build a Spam Detection System using the Machine Learning Algorithms . 
 I used TF-IDF method of sklearn to vectorize textual data into numeric. Then I apply cross validation to diffrent scikit-learn in-built classificaton algorithms like Logistic Regression, Decision Tree Classification, Support Vector Machine, K Nearest Neighbors, and All Naive Bayes. Then after analysis of the cross validation results and parameter tuning, I got Support Vector Machine with its Polynomial kernel performs best with more than 99% of accuracy and f1-score. So, I 
