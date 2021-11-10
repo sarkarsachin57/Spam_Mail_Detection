@@ -1,4 +1,4 @@
-# Spam_Mail_Detection
+# Spam Mail Detection
 ![image](https://user-images.githubusercontent.com/83460431/141176514-4649f838-d896-44df-bed6-c4eb76d1543e.png)
 
 
