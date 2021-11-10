@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Spam mail detection</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/DataScience-Engineering_Copy.png" type="image/x-icon">
+	<link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+</head>
+
+<body>
+	
+	<div class="wrapper">
+		<div class="inner">
+			<form action="{{ url_for('predict') }}" method="post">
+				<h3>
+					<strong>Spam Mail Detection</strong></h3>
+				<p></p>
+				<label class="form-group">
+					<textarea name="msg" class="form-control" required></textarea>
+					<span for="">Enter Your Mail here :</span>
+					<span class="border"></span>
+				</label>
+				<button type="submit"><strong>PREDICT</strong> 
+					<i class="zmdi zmdi-arrow-right"></i>
+				</button>
+				<br><br><br>
+				
+			</form>
+            <h4><strong>{{ text }}</strong></h4>
+		</div>
+	</div>
+
+</body>
+
+</html>
